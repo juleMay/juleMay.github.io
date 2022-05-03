@@ -1,2 +1,2 @@
 # personal-site
-Personal site in basic HTML and CSS
+Personal site made with basic HTML and CSS
