@@ -1,0 +1,75 @@
+#titulo{
+    padding-top: 40px;
+
+}
+
+#titulo h3{
+    padding: 0px;
+    margin: 0px;
+}
+
+.contenidoPrin{
+    min-height: 500px;
+}
+
+.contact-form{
+    margin: auto;
+    width: 420px;
+    max-width: 80%;
+}
+
+.form-element{
+    max-width: 480px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-element label, button{
+    font-size: 20px;
+    color: #0d1720;
+}
+
+.form-input,
+.submit-button{
+    font: inherit;
+}
+
+.form-input{
+    flex-grow: 2;
+    padding: 5px;
+    min-height: 40px;
+
+    
+    margin: 10px;
+    border: none;
+    box-shadow: inset 0px 0px 2px #000;
+    border-radius: 3px;
+}
+
+.submit-button{
+    min-height: 50px;
+    min-width: 100px;
+    background-color: #f79068;
+    color: #233e57;
+    border: none;
+    box-shadow: 0 0 2px #000;
+    border-radius: 2px;
+}
+
+.submit-button:hover{
+    background: #be5e34;
+    color: #fff;
+}
+
+#message{
+    min-height: 100px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .contenidoPrin{
+        display: flex;
+    }
+}
