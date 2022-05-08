@@ -2,7 +2,7 @@
     margin: 150px auto;
 }
 
-#contenidoPrin{
+.contenidoPrin{
     padding: 50px 60px;
     display: block;
     align-items: center;
@@ -14,23 +14,28 @@
 	border-collapse: collapse;
 	width: 100%;
 }
+
 #tabla td, #tabla th {
 	border: 1px solid #ddd;
 	padding: 8px;
 }
+
 #tabla tr:nth-child(even){
-   background-color: #f2f2f2;
+   background-color: #dfe8f0;
 }
+
 #tabla tr:nth-child(odd){
-   background-color: white;
+   background-color: #fff;
 }
+
 #tabla tr:hover {
    background-color: #ddd;
 }
+
 #tabla th {
 	padding-top: 12px;
 	padding-bottom: 12px;
 	text-align: left;
-	background-color: #444444;
-	color: white;
+	background-color: #1b2f41;
+	color: #fff;
 }

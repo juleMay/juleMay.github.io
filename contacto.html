@@ -2,13 +2,54 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <title>Contacto</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos/index.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos/contacto.css'>
 </head>
 <body>
-    
+    <header id="cabecera">
+        <h1>Julian Ordonez</h1>
+        <h2>Estudiante de Ingeniería de Sistemas</h2>
+    </header>
+    <nav>
+        <ul class="navegacionPrin">
+            <li><a href="index.html">{ Inicio }</a></li>
+            <li><a href="estudios.html">{ Estudios }</a></li>
+            <li><a href="proyectos.html">{ Proyectos }</a></li>
+            <li><a href="pasatiempos.html">{ Pasatiempos }</a></li>
+            <li><a href="contacto.html">{ Contacto }</a></li>
+        </ul>
+    </nav>
+    <section id="contenido">
+        <header id="titulo">
+            <h3>Contacto</h3>
+        </header>
+        <section class="contenidoPrin">
+            <form class="contact-form">
+                <div class="form-element">
+                    <label id="name-label" for="name">Nombre:</label>
+                    <input id="name" class="form-input" type="text" placeholder="Ingresa tu nombre" required/>
+                </div>
+                <div class="form-element">
+                    <label id="email-label" for="email">Correo:</label>
+                    <input id="email" class="form-input" type="email" placeholder="Ingresa tu correo electrónico" required/>
+                </div>
+                <div class="form-element">
+                    <textarea id="message" class="form-input" placeholder="Escribe un mensaje"></textarea>
+                </div>
+                <div class="form-element">
+                    <button id="submit" class="submit-button" type="submit">Envíar</button>
+                </div>
+            </form>
+        </section>
+    </section>
+    <footer id="piePrin">
+        <h2>© 2022 Julian Ordonez | Popayán, Cauca</h2>
+        <a href="mailto:jandresordonez@unicauca.edu.co">jandresordonez@unicauca.edu.co</a>
+        <h2>Universidad del Cauca</h2>
+        <a href="https://github.com/juleMay" target="_blank" title="GitHub">
+            <img src="archivos/GitHub-Mark-64px.png"/>
+        </a>
+    </footer>
 </body>
 </html>
